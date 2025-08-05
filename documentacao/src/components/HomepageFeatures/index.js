@@ -4,42 +4,49 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'CIIA',
+    Img: require('@site/static/img/ciia_logo.png').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Impulsionar a pesquisa, o desenvolvimento e a aplicação da inteligência artificial de forma responsável
+         e ética para o benefício da sociedade brasileira. Tem a visão de tornar-se referência global em inteligência artificial.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'NiaEdu',
+    Img: require('@site/static/img/nia_edu_logo.png').default,
+    imgClassName: 'roundedImage',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        O NIAEdu é um núcleo temático do Centro Integrado 
+        de Inteligência Artificial (CIIA) do Governo do Distrito Federal dedicado a enfrentar os desafios educacionais
+         com soluções tecnológicas inovadoras, práticas e inclusivas.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Secretaria da Educação',
+    Img: require('@site/static/img/see_logo.png').default,
+    imgClassName: 'roundedImage',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Com o objetivo de utilizar inteligência artificial para tornar o ensino mais personalizado, acessível e eficaz, 
+        promovendo uma educação colaborativa, dinâmica e orientada por dados, com foco na redução das desigualdades.
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ title, Img, imgClassName, description }) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <img
+          src={Img}
+          className={clsx(styles.featureImg, imgClassName && styles[imgClassName])}
+          alt={`${title} logo`}
+        />
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
@@ -48,6 +55,7 @@ function Feature({Svg, title, description}) {
     </div>
   );
 }
+
 
 export default function HomepageFeatures() {
   return (
