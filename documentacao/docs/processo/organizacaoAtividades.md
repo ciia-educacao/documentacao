@@ -16,6 +16,8 @@ Esta página apresenta como estruturamos o fluxo de trabalho do projeto, explica
 
 Utilizar o **GitHub Projects**, uma ferramenta integrada à plataforma GitHub que permite criar quadros de organização de tarefas (semelhante ao Trello ou Jira). Com ela, é possível visualizar as tarefas em diferentes etapas do desenvolvimento e atribuir responsabilidades de forma clara.
 
+![Quadro Kanban](img/kanban_projects.png)
+
 ---
 
 ### Método de organização: Kanban
