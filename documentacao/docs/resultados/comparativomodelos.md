@@ -56,7 +56,7 @@ A partir das análises anteriores, foi desenvolvido um **modelo híbrido** compo
 
 Esse fluxo pode ser representado graficamente como:
 
-```mermaid
+```
 flowchart LR
   A[Base de Dados (PDAF)] --> B[Pré-Processamento]
   B --> C[Isolation Forest<br/>Detecção Inicial de Outliers]
@@ -64,3 +64,38 @@ flowchart LR
   C --> E[XGBoost<br/>Ajuste de Pesos]
   D & E --> F[Modelo Híbrido Final<br/>(Anomalias Confirmadas)]
   F --> G[Relatórios e Dashboards]
+```
+
+## Desempenho do Modelo Híbrido
+
+A integração dos algoritmos resultou em **melhor equilíbrio geral** entre desempenho e interpretabilidade.
+
+| Modelo | Acurácia | F1-Score | Redução de Falsos Positivos | Observação |
+|:--|:--:|:--:|:--:|:--|
+| Random Forest (isolado) | 0.87 | 0.87 | — | Base de comparação |
+| XGBoost (isolado) | 0.89 | 0.89 | — | Melhor modelo supervisionado |
+| Isolation Forest (isolado) | — | — | — | Detecção inicial de outliers |
+| **Híbrido (RF + IF + XGB)** | **0.94** | **0.92** | **-26%** | Melhor resultado combinado |
+
+---
+
+## Benefícios e Limitações
+
+### Benefícios
+- Redução de falsos positivos e aumento da confiabilidade.  
+- Maior robustez em dados ruidosos e não rotulados.  
+- Capacidade de generalização para diferentes períodos do PDAF.  
+- Estrutura escalável para integração futura com dados reais da SEEDF.
+
+### Limitações
+- Exige alto custo de processamento e *tuning* de hiperparâmetros.  
+- Dependência de bases atualizadas e bem estruturadas.  
+- Necessidade de balanceamento periódico dos dados para evitar viés.
+
+---
+
+## Considerações Finais
+
+O **modelo híbrido proposto** combina as vantagens de abordagens supervisionadas e não supervisionadas, atingindo desempenho superior e mantendo interpretabilidade adequada ao uso em **auditorias públicas automatizadas**.
+
+Esses resultados consolidam a viabilidade técnica da proposta e fundamentam a etapa de **prototipação e integração futura com os dados reais** do sistema PDAF institucional.
