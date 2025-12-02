@@ -4,7 +4,7 @@
 
 ---
 
-## 📘 Apresentação
+## Apresentação
 
 Este repositório contém a documentação completa do projeto **“Sistema de Detecção de Anomalias no Cartão PDAF”**, desenvolvido com o objetivo de propor uma **prova de conceito (PoC)** baseada em **Inteligência Artificial (IA)** para **identificação e prevenção de fraudes e inconsistências na gestão dos recursos do Cartão PDAF** — Programa de Descentralização Administrativa e Financeira da Secretaria de Educação do Distrito Federal.
 
@@ -17,7 +17,7 @@ O trabalho segue as etapas clássicas de um estudo aplicado em IA e administraç
 
 ---
 
-## 👩‍💻 Equipe
+## 👩Equipe
 
 - **Autores:**
   Danilo Naves do Nascimento
@@ -34,21 +34,20 @@ O trabalho segue as etapas clássicas de um estudo aplicado em IA e administraç
 
 ---
 
-## 🧭 Estrutura da Documentação
+## Estrutura da Documentação
 
 A documentação está organizada nas seguintes seções:
 
 1. **[Resumo](resumo.md):** visão geral do projeto e principais resultados.  
-2. **[Introdução](introducao.md):** contexto, problema e objetivos da pesquisa.  
-3. **[Fundamentação Teórica](fundamentacao/objeto-de-estudo.md):** base normativa do PDAF e revisão sobre IA em detecção de anomalias.  
-4. **[Metodologia](metodologia/populacao-amostra.md):** coleta de dados, escolha e treinamento dos modelos.  
-5. **[Resultados e Discussão](resultados/analise-dados-publicos.md):** análises, gráficos e comparativos.  
+2. **[Introdução](intro.md):** contexto, problema e objetivos da pesquisa.  
+3. **[Fundamentação Teórica](fundamentacao/objetoestudo.md):** base normativa do PDAF e revisão sobre IA em detecção de anomalias.  
+4. **[Metodologia](metodologia/populacaoamostra.md):** coleta de dados, escolha e treinamento dos modelos.  
+5. **[Resultados e Discussão](resultados/analisepublicas.md):** análises, gráficos e comparativos.  
 6. **[Conclusão](conclusao/conclusao.md):** síntese dos achados e sugestões futuras.  
-7. **[Referências](referencias.md):** bibliografia utilizada.
 
 ---
 
-## 📄 Acesso ao Relatório Original (PDF)
+## Acesso ao Relatório Original (PDF)
 
 O relatório completo no formato acadêmico está disponível para consulta no link abaixo:
 

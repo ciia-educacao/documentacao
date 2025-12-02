@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Introdução
 
 O **Cartão PDAF** (*Programa de Descentralização Administrativa e Financeira*) é um instrumento financeiro criado e regulamentado pelo **Decreto nº 42.403, de 18 de agosto de 2021**, com o objetivo de **agilizar e simplificar a gestão de recursos nas escolas públicas e nas Coordenações Regionais de Ensino (CREs)** da rede pública do Distrito Federal.
