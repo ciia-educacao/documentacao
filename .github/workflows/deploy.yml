@@ -4,30 +4,33 @@ on:
   push:
     branches:
       - main
+    paths:
+      - documentacao/**
+      - .github/workflows/deploy.yml
+    workflow_dispatch:
+
+defaults:
+  run:
+    working-directory: documentacao
+
 
 jobs:
   build:
     name: Build Docusaurus
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
       - uses: actions/setup-node@v4
         with:
-          node-version: 18
-          cache: 'npm'
-          cache-dependency-path: documentacao/package-lock.json
+          node-version: 20
+          cache: npm
+          cache-dependency-path: '**/package-lock.json'
 
       - name: Install dependencies
-        working-directory: ./documentacao
-        run: npm ci
-
+        run:  npm ci
       - name: Build website
-        working-directory: ./documentacao
-        run: npm run build
-
+        run:  npm run build
       - name: Upload Build Artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -39,11 +42,9 @@ jobs:
     permissions:
       pages: write
       id-token: write
-
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-
     runs-on: ubuntu-latest
     steps:
       - name: Deploy to GitHub Pages
