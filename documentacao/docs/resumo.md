@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Resumo
 
 O presente trabalho apresenta o desenvolvimento de uma **prova de conceito (PoC)** de um **sistema baseado em Inteligência Artificial (IA)** para **detecção de anomalias e possíveis fraudes na gestão dos recursos do Cartão PDAF** (Programa de Descentralização Administrativa e Financeira) da Secretaria de Educação do Distrito Federal (SEEDF).

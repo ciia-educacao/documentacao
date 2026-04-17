@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # Introdução
@@ -12,7 +12,7 @@ Entretanto, o **Tribunal de Contas do Distrito Federal (TCDF)** e o **Ministéri
 
 ---
 
-## 🎯 Problema de Pesquisa
+## Problema de Pesquisa
 
 A descentralização financeira, embora traga benefícios administrativos, também amplia o risco de **inconsistências contábeis e operacionais**. Assim, surge o desafio:
 
@@ -20,13 +20,13 @@ A descentralização financeira, embora traga benefícios administrativos, tamb�
 
 ---
 
-## 🧩 Objetivo Geral
+## Objetivo Geral
 
 Desenvolver uma **prova de conceito (PoC)** de um sistema baseado em **Inteligência Artificial** capaz de **detectar anomalias e fraudes** na execução dos recursos do Cartão PDAF, contribuindo para aprimorar os mecanismos de **auditoria, controle e transparência**.
 
 ---
 
-## 📋 Objetivos Específicos
+## Objetivos Específicos
 
 1. **Levantar** bibliografia e estudos relacionados ao PDAF e às técnicas de detecção de anomalias por IA.  
 2. **Coletar e tratar** dados secundários do PDAF e de bases públicas disponíveis.  
@@ -36,7 +36,7 @@ Desenvolver uma **prova de conceito (PoC)** de um sistema baseado em **Inteligê
 
 ---
 
-## 🏛️ Estrutura do Trabalho
+## Estrutura do Trabalho
 
 A documentação está organizada conforme as etapas do projeto:
 

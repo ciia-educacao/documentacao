@@ -1,3 +1,7 @@
+---
+sidebar_position: 0
+---
+
 # Sistema de Detecção de Anomalias no Cartão PDAF
 
 **Projeto desenvolvido no âmbito do CIIA – Centro Integrado de Inteligência Aplicada**
@@ -17,7 +21,7 @@ O trabalho segue as etapas clássicas de um estudo aplicado em IA e administraç
 
 ---
 
-## 👩Equipe
+## Equipe
 
 - **Autores:**
   Danilo Naves do Nascimento
@@ -53,13 +57,13 @@ O relatório completo no formato acadêmico está disponível para consulta no l
 
 <p align="center">
   <a href="https://github.com/ciia-educacao/documentacao/raw/main/documentacao/docs/RelatorioPDAF.pdf" download>
-    <img src="https://img.shields.io/badge/⬇️%20Baixar%20Relatório%20Completo-blue?style=for-the-badge" alt="Baixar Relatório PDAF"/>
+    <img src="https://img.shields.io/badge/%20Baixar%20Relatório%20Completo-blue?style=for-the-badge" alt="Baixar Relatório PDAF"/>
   </a>
 </p>
 
 ---
 
-## 🧰 Repositórios Relacionados
+## Repositórios Relacionados
 
 - [Repositório da Documentação (este site)](https://github.com/ciia-educacao/documentacao)
 - [Repositório dos Modelos Desenvolvidos](https://github.com/ciia-educacao/modelos_pdaf)
